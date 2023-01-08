@@ -198,10 +198,17 @@ label > p{
     width: 100%;
 }
 
-#foro main{
-    width: 100%;
-}
 
 video{
     margin-left: 1em;
+}
+
+.end{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 16px 0 14px;
+    display: block;
+    margin-top: 20px;
 }
