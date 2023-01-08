@@ -2,6 +2,7 @@ body, html {
 	font-family: 'Oswald', sans-serif;
 	margin: 0;
 	font-size: 16px;
+    overflow: hidden;
 }
 header {
 	display: block;
@@ -182,7 +183,7 @@ label > p{
     border: 1px solid black;
 }
 
-#foto img{
+#foto > img{
     overflow-clip-margin: content-box;
     overflow: clip;
     width: 100%;
